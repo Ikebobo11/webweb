@@ -113,7 +113,7 @@ nav{
     justify-content: space-between;
     margin-inline: auto;
     margin-block: 30px 50px;
-    max-width: 1120px;
+    max
 
     @media(max-width:1000px){
         grid-template-columns: 1fr 1fr ;
@@ -155,9 +155,6 @@ nav{
     grid-template-columns: 1fr 1fr;
     align-items: center;
     gap:60px;
-    max-width: 1120px;
-    margin-inline: auto;
-    padding-inline: 2rem;
     /* margin-inline: 180px; */
     margin-bottom: 80px;
     max-width: 2000px;
@@ -273,13 +270,11 @@ nav{
     flex-wrap: wrap;
 }
 .last-image-div-a{
-    /* width: 100vw; */
+    width: 100vw;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 20px;
     padding-block: 100px;
-    max-width: 1120px;
-    margin-inline: auto;
     @media (max-width:800px) {
         grid-template-columns:1fr 1fr;
         margin-inline: auto;

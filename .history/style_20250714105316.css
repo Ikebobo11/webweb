@@ -279,7 +279,6 @@ nav{
     gap: 20px;
     padding-block: 100px;
     max-width: 1120px;
-    margin-inline: auto;
     @media (max-width:800px) {
         grid-template-columns:1fr 1fr;
         margin-inline: auto;
