@@ -63,7 +63,6 @@ body{
     color: white;
     padding: 40px 60px;
     max-width: 1120px;
-    margin-inline: auto;
 }
 nav{
     display: flex;

@@ -62,8 +62,6 @@ body{
     justify-content: space-between;
     color: white;
     padding: 40px 60px;
-    max-width: 1120px;
-    margin-inline: auto;
 }
 nav{
     display: flex;
@@ -150,7 +148,7 @@ nav{
     margin-block: 15px;
 }
 .ooo{
-    background-color: black;
+    background-color: ;
 }
 .first-p{
     text-align: center;

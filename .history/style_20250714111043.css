@@ -62,8 +62,7 @@ body{
     justify-content: space-between;
     color: white;
     padding: 40px 60px;
-    max-width: 1120px;
-    margin-inline: auto;
+    max-width: 120;
 }
 nav{
     display: flex;
