@@ -201,54 +201,45 @@ nav{
     max-width: 960px;
     margin-inline: auto;
     @media(max-width:900px) {
-        grid-template-columns: 1fr 1fr;
-        /* max-width: 620px; */
-        margin-inline: auto;
-        padding-inline: 10%;
-
-    }
-    @media (max-width:650px) {
         grid-template-columns: 1fr;
-        /* max-width: 320px; */
-        margin-inline: auto;
-        padding-inline: 10%;
+
     }
         
 }
 .project{
     background-size: cover;
-    /* max-width:320px ; */
+    max-width:320px ;
     height: 320px; 
     background-position: center;
     background-color: blue;
 }
 .div-a{
-    background-image: url(./project-1.jpg);
+    background-image: url(https://jubril-a.github.io/Jubrildotcodes/assets/images/projects/project-1.jpg);
 }
  
 .div-b{
-    background-image: url(./project-2.jpg);
+    background-image: url(https://jubril-a.github.io/Jubrildotcodes/assets/images/projects/project-2.jpg);
 }
 .div-c{
-    background-image: url(./project-3.png);
+    background-image: url(https://jubril-a.github.io/Jubrildotcodes/assets/images/projects/project-3.jpg);
 }
 .div-d{
-    background-image: url(./project-4.jpg);
+    background-image: url(https://jubril-a.github.io/Jubrildotcodes/assets/images/projects/project-7.jpg);
 }
 .div-e{
-    background-image: url(./project-5.jpg);
+    background-image: url(https://jubril-a.github.io/Jubrildotcodes/assets/images/projects/project-5.jpg);
 }
 .div-f{
-    background-image: url(./project-6.jpg);
+    background-image: url(https://jubril-a.github.io/Jubrildotcodes/assets/images/projects/project-6.jpg);
 }
 .div-g{
-    background-image: url(./project-7.jpg);
+    background-image: url(https://jubril-a.github.io/Jubrildotcodes/assets/images/projects/project-4.jpg);
 }
 .div-h{
-    background-image: url(./project-8.jpg);
+    background-image: url(https://jubril-a.github.io/Jubrildotcodes/assets/images/projects/project-8.jpg);
 }
 .div-i{
-    background-image: url(./project-9.jpg);
+    background-image: url(https://jubril-a.github.io/Jubrildotcodes/assets/images/projects/project-9.jpg);
 
 }
 .underline-div{
@@ -273,18 +264,11 @@ nav{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 20px;
-    padding-block: 100px;
-    @media (max-width:800px) {
-        grid-template-columns:1fr 1fr;
+    padding: 100px;
+    @media (max-width:900px) {
+        grid-template-columns:1fr;
         margin-inline: auto;
     }
-    @media (max-width:640px) {
-        grid-template-columns: 1fr;
-        padding-inline: 16px;
-    }
-}
-.just-div{
-    max-width: 408px;
 }
 .new-image-a{
     width: 270px;
@@ -364,61 +348,4 @@ nav{
     color: aqua;
     text-align: center;
     margin-block: 40px 25px;
-}
-footer{
-    background-color: yellow;
-    padding-block: 20px;
-}
-.head-icon-div{
-    display: flex;
-    gap: 20px;
-    max-width: 20rem;
-    margin-inline: auto;
-}
-.icon-div-a{
-    max-width: 3rem;
-    height: 4rem;
-    background-color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-inline: auto;
-    margin-block: -2.5rem 2rem;
-    border: 1px solid white;
-}
-.icon-div-b{
-    max-width: 3rem;
-    height: 4rem;
-    background-color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-inline: auto;
-    margin-bottom:2rem; 
-    padding-inline: 10px;
-
-}
-.icon-a{
-    color: aqua;
-    
-    font-size: 2rem;
-}
-.footer-p{
-    text-align: center;
-}
-
-.hover:hover h3 {
- color: teal;
-}
-.new-div-a:hover~.hover {
-    opacity: 0.4;
-}
-.new-div-b:hover~.hover{
-    opacity: 0.4;
-}
-.new-div-c:hover~.hover{
-    opacity: 0.4;
-}
-.new-div-d:hover~.hover{
-    opacity: 0.4;
 }
